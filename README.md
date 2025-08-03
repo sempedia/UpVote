@@ -85,56 +85,76 @@ UpVote/
 
 ```bash
 git clone https://github.com/sempedia/UpVote.git
-cd UpVote
-2. Run with Docker Compose (Recommended)
+```
+
+cd upvote
+
+### 2. Run with Docker Compose (Recommended)
 Make sure you have Docker and Docker Compose installed.
 
 Start the entire stack (backend + frontend):
 
-
+```bash
 docker-compose up --build
+```
 Backend API will be accessible at: http://localhost:8000
 
 Expo frontend will start with a QR code for mobile app access.
 
 To stop:
 
-
+```bash
 docker-compose down
-3. Backend Setup (Manual)
-If you want to run backend manually without Docker:
+```
 
+### 3. Backend Setup (Manual)
+If you want to run backend manually without Docker:
+```bash
 cd backend
 python3 -m venv venv
 source venv/bin/activate         # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+```
 
 API available at: http://localhost:8000
 
-4. Frontend Setup (Manual)
+### 4. Frontend Setup (Manual)
 To run frontend manually:
 
 
 cd frontend
 npm install
 npm start
+```
+
 Use Expo app on your mobile device or run on web:
 
-Android: npm run android
+Android:
 
-iOS: npm run ios (macOS only)
+```bash
+npm run android
+```
 
-Web: npm run web
+iOS:
 
-🧪 Sample API Endpoints
+```bash
+npm run ios (macOS only)
+```
+
+Web:
+```bash
+npm run web
+```
+
+### 🧪 Sample API Endpoints
 Method	Endpoint	Description
 GET	/features	List all features
 POST	/features	Create a new feature
 POST	/features/{id}/vote	Upvote a feature
 
-🧠 Prompting Strategy & AI Logs
+### 🧠 Prompting Strategy & AI Logs
 Prompting was done using Claude 3  Logs are saved in prompts.txt, showing:
 
 Scaffolding of backend and frontend
@@ -147,14 +167,14 @@ Git setup and .gitignore
 
 AI-generated doc templates
 
-🧹 Known Limitations
+### 🧹 Known Limitations
 No authentication (public voting)
 
 Minimal validation on input
 
 Flat data model (no user linkage or comments)
 
-✅ Future Improvements
+### ✅ Future Improvements
 🔐 User login and roles
 
 🧠 AI-assisted feature prioritization
@@ -165,10 +185,10 @@ Flat data model (no user linkage or comments)
 
 ☁️ Cloud DB and deployment
 
-🧑‍💻 Author
+### 🧑‍💻 Author
 Alina @sempedia
 
 
 
-🪄 License
+### 🪄 License
 MIT – free to use, adapt, or build on
