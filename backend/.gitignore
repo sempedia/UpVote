@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+.env
+
+# VSCode and JetBrains
+.vscode/
+.idea/
+
+# Poetry
+poetry.lock
+poetry.toml
+
+# macOS
+.DS_Store
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+*.bak
+*.swp
+*.tmp
+logs/
+docker-compose.override.yml
+
+# Migrations (optional: if auto-generated or development only)
+**/migrations/*.py
+**/migrations/*.pyc
+!**/migrations/__init__.py
