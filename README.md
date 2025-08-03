@@ -185,10 +185,13 @@ Flat data model (no user linkage or comments)
 
 ☁️ Cloud DB and deployment
 
+
 ### 🧑‍💻 Author
-Alina @sempedia
 
+Alina [@sempedia](https://github.com/sempedia)
 
+---
 
-### 🪄 License
-MIT – free to use, adapt, or build on
+###  🪄 License
+
+[MIT License](https://opensource.org/licenses/MIT) – free to use, adapt, or build on
