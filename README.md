@@ -129,7 +129,7 @@ npm install
 npm start
 ```
 
-Use Expo app on your mobile device or run on web:
+## Use Expo app on your mobile device or run on web:
 
 Android:
 
