@@ -145,9 +145,11 @@ UpVote/
 
 ---
 
+
+
 ## 🧑‍💻 Author
 
-Alina Bazavan (@sempedia)
+[Alina Bazavan](https://github.com/sempedia) ([@sempedia](https://github.com/sempedia))
 
 ## 🪄 License
 
